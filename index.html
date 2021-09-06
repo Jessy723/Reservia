@@ -1,59 +1,124 @@
-<!DOCTYPE html> 
-<html>
-    <header class="header">
+<!DOCTYPE html>
 
-    
-            <a href="index.html"><img src="images/logo/Reservia@3x.png" alt="Acceuil" width="105" height="49"></a>
-                <nav class="headerNav">
-             <a class="headerNavLink" href="Hebergements.html" data-active="true">Hébergement</a>
-             <a class="headerNavLink" href="activites.html" data-active="true">Activités</a>
-          </nav>
-          <a class="headerSignup" href="#">S'inscrire</a>
+<html lang="fr">
 
-         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="Activites.html">activites</a></li>
-            <li><a href="Hebergements.html">hebergements</a></li>
-        
-            </ul>
-
-     </header>
     <head>
-   
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="styles1.css"/>
-         <title></title>
-         
-        
-         <span style="font-family: arial, helvetica, sans-serif;" data-mce-style="font-family: arial, helvetica, sans-serif;">   
+            <link rel="stylesheet" href="style1.css" />
+
+              <script src="https://kit.fontawesome.com/3cff48acf8.js" crossorigin="anonymous"></script>
+
+                 <title>Reservia</title>
+    </head>
+
+    <body>
+    
+        <div id="bloc_nav">
+            <header>
+                    <div id="logo">
+                       <a href="index.html"><img src="images/logo/Reservia@3x.png" alt="Acceuil" width="105" height="49"></a>   
+                    </div>  
+                <nav>
+                    <ul>
+                        <li><a  href="#">Hébergements</a></li>
+                        <li><a  href="#">Activités</a></li>
+                        <li><a  href="#"><strong>S'inscrire</strong></a></li>
+                    </ul>
+
+                </nav>
+            </header>
+            <div id="Recherche">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h2> En plein centre ville ou en pleine nature</h2>
+
+            </div>
+            <div>
+                <form id="search" method="post" action="traitement.php">
+                    <span id="cadrelocalisation"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span>
+                    <input type="search" name="recherche" id="textederecherche" placeholder="Marseille, France">
+                    <div class="boutonrecherche"><span id="submitrecherche">Rechercher</span><i class="fas fa-search" aria-hidden="true"></i></div>
+            </form>
+            </div>
+               <div>
+                   <section class="hebergements">
+                <h3>Hébergements à Marseille</h3>   
+                <figure class="cannebiere">
+                    <img src="images/hebergements/4_small/1.jpg" alt="image Auberge La Cannebiere" title="Auberge La Cannebière">
+                </figure>
+                    <img src="images/hebergements/4_small/2.jpg" alt="image Hôtel du port" title="Hôtel du port">
+                    <img src="images/hebergements/4_small/3.jpg" alt="image Hôtel Les mouettes" title="Hôtel Les mouettes">
+                    <img src="images/hebergements/4_small/4.jpg" alt="image Hôtel de la mer" title="Hôtel de la mer">
+                    <img src="images/hebergements/4_small/5.jpg" alt="image Auberge Le Panier" title="Auberge Le Panier">
+                    <img src="images/hebergements/4_small/6.jpg" alt="image Hôtel chez Amina" title="Hôtel chez Amina">
+                </section>
+
+                <section class="populaires">
+                 <h3>Les plus populaires</h3>
+                
+                    <img src="images/hebergements/4_small/7.jpg" alt="image Hôtel Le soleil du matin" title="Hôtel Le soleil du matin">
+                    <img src="images/hebergements/4_small/8.jpg" alt="image Au coeur de l'eau Chambres d'hôtes" title="Au coeur de l'eau Chambres d'hôtes">
+                    <img src="images/hebergements/4_small/9.jpg" alt="image Hôtel Tout bleu et Blanc" title="Hôtel Tout bleu et Blanc">
+                </section>
+
+                <div class=activites>
+                <h3>Activités à Marseille</h3>
             
-            <h2>
-                Trouvez votre hébergement pour des vacances de rêve
-            </h2>
-            <p1>En plein centre ville ou en pleine nature</p1>
-
-        </head>
-       
-        <body>
-           
             
-       
+                    <img src="images\activites\4_small/1.jpg" alt="image Vieux Port" title="Vieux Port">
+                    <img src="images\activites\4_small/2.jpg" alt="image Fort de Pomègues" title="Fort de Pomègues">
+                    <img src="images\activites\4_small/3.jpg" alt="image Îles du Frioul" title="Îles du Frioul">
+                    <img src="images\activites\4_small/4.jpg" alt="image Parc National des Calanques" title="Parc National des Calanques">
+                    <img src="images\activites\4_small/5.jpg" alt="image Notre-Dame-de-la-Garde" title="Notre-Dame-de-la-Garde">
+                    <img src="images\activites\4_small/6.jpg" alt="image Parc Longchamp" title="Parc Longchamp">
+                
 
-        </body>
+               </div>
 
-    
-    
-    <nav>
+
+
+
+            </div>
+
+
+
+
+     
+            <div id="Lieux de vacances">
         
 
+        </div>
+            <footer>
+                  
+                <div><strong>A propos</strong>
 
-<footer>
-
-
-</footer>
-
-
+                    
+                    <ul> 
+                        <li> Fonctionnement du site </li> 
+                        <li> Conditions générales de vente  </li> 
+                        <li> Données et confidentialité  </li> 
+                     
+                    </ul>
+                   
+                  
     
-</nav>
-</span>
+                    <strong>Nos hébergements</strong> 
+
+                      <ul> 
+                        <li> Charte qualité </li> 
+                        <li> Soumettre votre hôtel  </li> 
+                     
+                    </ul>
+
+                    <strong>Assistance</strong> 
+                    
+                    <ul> 
+                        <li> Centre d'aide</li> 
+                        <li> Nous contacter </li> 
+                     
+                    </ul>
+
+                    </div>
+
+            </footer>
+        </body>      
 </html>
